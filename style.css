@@ -1,1 +1,219 @@
+body{
+    background-color:#0f0e0e;
+    width: 80%;
+    margin: auto;
+    font-family: arial, sans-serif;
+    font-size:20px;
+    color:#e3f1fc;
+    font-weight:normal;
+    font-style:normal;
+    line-height:30px;
+    text-align:justify;
+    text-indent: 20px;
+    padding-bottom:40px;
+    padding-top:40px;
+}
 
+header{
+   text-align: center;
+   width:100%;
+   height:35px;
+   padding-top: 10px;
+   left: 0;
+   top:0;
+   vertical-align:center;
+   display: inline-block;
+   background-color:#b0e0e6;
+   overflow:hidden;
+   position: fixed;
+   float: center;
+   color:black;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:25px;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #b0e0e6;
+  overflow: hidden;
+  font-family: verdana, sans-serif;
+  font-size:12px;
+  color:black;
+  font-weight:normal;
+  font-style:normal;
+  line-height:1.3em;
+  text-align:center;
+}
+
+.container{ 
+    background-color:none;
+    width: 90%;
+    min-width: 600px;
+    maximum-width: 2000px;
+    margin: auto;
+    height: auto;
+    float: center;
+}
+
+.container h1{
+    font-family: verdana, sans-serif;
+    font-size:40px;
+    color:#b0e0e6;
+    font-weight:normal;
+    font-style:normal;
+    line-height:1.3em;
+    text-align:center;
+}
+.container h2{
+    font-family: verdana, sans-serif;
+    font-size:30px;
+    color:#1e90ff;
+    font-weight:normal;
+    font-style:normal;
+    line-height:1.3em;
+    text-align:center;
+}
+.container h3{
+    font-family: verdana, sans-serif;
+    font-size:30px;
+    color:#1e90ff;
+    font-weight:normal;
+    font-style:normal;
+    line-height:1.3em;
+    text-align:center;
+}
+.container p {
+  text-align: justify;
+  margin:auto;
+}
+
+.references p{
+    background-color:#0f0e0e;
+    width: 80%;
+    margin: auto;
+    font-family: arial, sans-serif;
+    font-size:20px;
+    color:#e3f1fc;
+    font-weight:normal;
+    font-style:normal;
+    line-height:30px;
+    text-align: left;
+    text-indent: 0px;
+    padding-top: 40px;
+    word-wrap: break-word;
+}
+
+.references h1{
+    font-family: verdana, sans-serif;
+    font-size:40px;
+    color:#b0e0e6;
+    font-weight:normal;
+    font-style:normal;
+    line-height:1.3em;
+    text-align:center;
+}
+
+.topnav{
+   text-align: center;
+   display: inline-block;
+   background-color:none;
+   overflow:hidden;
+   position: static;
+   float: center;
+}
+
+.topnav a {
+   color: black;
+   text-decoration:none;
+   text-align: center;
+   float:center;
+   padding: 5px;
+   font-size:20px;
+   border-radius: 5px;
+   width: fit content;
+   margin: 0 auto;
+}
+
+.topnav a:hover {
+  background-color:#1e90ff;
+  color: white;
+}
+
+.topnav a:active {
+  background-color:none; 
+  color: #1e90ff;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  float: top;
+  position: static;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  
+}
+
+h4 {
+   font-family: verdana, sans-serif;
+   font-size:12px;
+   color:##b0e0e6;
+   font-weight:normal;
+   font-style:normal;
+   line-height:1.3em;
+   text-align:center;
+}
+
+.grad-box {
+  background-image: linear-gradient(to bottom right, #b0e0e6, #1e90ff);
+  width: 540px;
+  height: 300px;
+  padding:25px 25px 25px 25px;
+  border-radius: 40px;
+  margin: 25px auto;
+  position: static;
+  float: center;
+}
+
+.grad-box img {
+  display: block;
+  margin-top: 15px;
+  width: 120px;
+  height: 120px;
+  position: top center;
+}
+
+.grad-box h3{
+    font-family: verdana, sans-serif;
+    font-size:30px;
+    color: black;
+    font-weight:normal;
+    font-style:normal;
+    text-align:center;
+}
+
+.grad-box p {
+  color: darkslategray;
+  text-align: center;
+  float: below;
+  margin: 10px auto;
+  text-indent:0px;
+  font-size: 17px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 10px;
+}
